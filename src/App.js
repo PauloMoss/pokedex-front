@@ -16,6 +16,7 @@ import Pokemon from "./pages/Pokemon";
 import MyPokemons from "./pages/MyPokemons";
 
 export default function App() {
+    window.localStorage.removeItem("token")
     return (
         <>
             <UserProvider>
